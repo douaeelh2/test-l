@@ -1,0 +1,273 @@
+{
+  "common": {
+    "login": {
+      "title": "Connectez-vous à votre compte",
+      "email_label": "E-mail",
+      "email": "Entrez votre e-mail",
+      "password_label": "Mot de passe",
+      "password": "Entrez votre mot de passe",
+      "remember_me": "Se souvenir de moi",
+      "forgot_password": "Mot de passe oublié ?",
+      "login_button": "Se connecter",
+      "validation": {
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Format d'email invalide",
+        "emailTooLong": "L'email est trop long",
+        "passwordRequired": "Le mot de passe est requis",
+        "passwordTooShort": "Le mot de passe est trop court",
+        "passwordTooLong": "Le mot de passe est trop long",
+        "passwordUppercase": "Le mot de passe doit contenir une majuscule",
+        "passwordLowercase": "Le mot de passe doit contenir une minuscule",
+        "passwordNumber": "Le mot de passe doit contenir un chiffre",
+        "passwordSpecialChar": "Le mot de passe doit contenir un caractère spécial"
+      }
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "description": "Entrez votre e-mail pour réinitialiser votre mot de passe.",
+      "email_label": "Adresse e-mail",
+      "email_placeholder": "Entrez votre e-mail",
+      "reset_button": "Réinitialiser le mot de passe",
+      "back_to_login": "Retour à la connexion",
+      "validation": {
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+        "emailTooLong": "L'email ne peut pas dépasser 100 caractères"
+      }
+
+    },
+    "changePassword": {
+      "title": "Changez votre mot de passe",
+      "old_password_label": "Ancien mot de passe",
+      "old_password_placeholder": "Entrez votre mot de passe actuel",
+      "new_password_label": "Nouveau mot de passe",
+      "new_password_placeholder": "Entrez votre nouveau mot de passe",
+      "change_password_button": "Changer le mot de passe",
+      "back_to_login": "Retour à la connexion",
+      "validation": {
+        "oldPasswordRequired": "Le mot de passe actuel est requis",
+        "newPasswordRequired": "Le nouveau mot de passe est requis",
+        "passwordTooShort": "Le mot de passe doit comporter au moins 8 caractères",
+        "passwordTooLong": "Le mot de passe ne peut pas dépasser 50 caractères",
+        "newPasswordSameAsOld": "Le nouveau mot de passe doit être différent du mot de passe actuel",
+        "passwordUppercase": "Le mot de passe doit contenir une lettre majuscule",
+        "passwordLowercase": "Le mot de passe doit contenir une lettre minuscule",
+        "passwordNumber": "Le mot de passe doit contenir un chiffre",
+        "passwordSpecialChar": "Le mot de passe doit contenir un caractère spécial"
+      }
+    },
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "history": "Historique",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "confirm": "Confirmer",
+    "actions": {
+      "previousPage": "Précédent",
+      "nextPage": "Suivant"
+    },
+    "pagination": {
+      "rowsPerPage": "Lignes par page",
+      "of": "sur"
+    }
+  },
+  "navbar": {
+    "title": "Administration",
+    "language": "Langue",
+    "setting": "Paramètres",
+    "routes": {
+      "licenses": "Génération de licences",
+      "licensetypes": "Génération de types de licences"
+    },
+    "languages": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "settings": {
+      "profile": "Profil",
+      "account": "Compte",
+      "dashboard": "Tableau de bord",
+      "logout": "Déconnexion"
+    }
+  },
+  "licenses": {
+    "pageTitle": "Génération de licences",
+    "createButton": "Générer une licence",
+    "searchPlaceholder": "Rechercher...",
+    "tableHeaders": {
+      "licenseName": "Nom de licence",
+      "licenseType": "Type de licence",
+      "keyParams": "Paramètres clés",
+      "creationDate": "Date de création",
+      "actions": "Actions"
+    },
+    "history": {
+      "title": "Historique",
+      "action": {
+        "extension": "Extension",
+        "generation": "Génération"
+      },
+      "details": {
+        "licenseName": "Nom de licence",
+        "licenseType": "Type de licence",
+        "keyParams": "Paramètres clés",
+        "user": "Utilisateur",
+        "duration": "Durée",
+        "creationDate": "Date de creation"
+      }
+    },
+    "params": {
+      "users": "Utilisateurs",
+      "duration": "Durée",
+      "months": "mois"
+    },
+    "form": {
+      "pageTitle": "Générer une licence",
+      "createButton": "Générer",
+      "editTitle": "Modifier la licence",
+      "saveButton": "Enregistrer",
+      "extendButton": "Étendre",
+      "extendTitle": "Prolonger une licence",
+      "extendSaveButton": "Prolonger",
+      "cancel": "Annuler",
+      "labels": {
+        "name": "Nom de licence",
+        "type": "Type de licence",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "client": "Client",
+        "comment": "Commentaire",
+        "parameters": "Les paramètres",
+        "companyName": "Nom de l'entreprise",
+        "maxProcess": "Processus maximales",
+        "maxResources": "Ressources maximales",
+        "maxConcurrentSessions": "Sessions simultanées maximales"
+      },
+      "placeholders": {
+        "name": "Nom",
+        "type": "-",
+        "startDate": "-",
+        "endDate": "-",
+        "client": "-",
+        "comment": "Texte",
+        "companyName": "Nom",
+        "maxProcess": "Nombre",
+        "maxResources": "Nombre",
+        "maxConcurrentSessions": "Nombre"
+      },
+      "validation": {
+        "nameRequired": "Le nom est requis",
+        "nameTooLong": "Le nom ne doit pas dépasser 100 caractères",
+        "typeRequired": "Le type est requis",
+        "clientRequired": "Le client est requis",
+        "startDateRequired": "La date de début est requise",
+        "endDateRequired": "La date de fin est requise",
+        "startDateBeforeEndDate": "La date de début doit être antérieure à la date de fin",
+        "endDateAfterStartDate": "La date de fin doit être postérieure à la date de début"
+      }
+    },
+    "notifications": {
+      "createSuccess": "Licence crée avec succès",
+      "updateSuccess": "Licence mise à jour avec succès",
+      "extendSuccess": "Licence étendue avec succès",
+      "deleteSuccess": "Licence supprimée avec succès",
+      "error": "Une erreur est survenue"
+    },
+    "deleteDialog": {
+      "title": "Supprimer la licence",
+      "message": "Êtes-vous sûr de vouloir supprimer cette licence ? Cette action ne peut pas être annulée.",
+      "confirmButton": "Supprimer",
+      "cancelButton": "Annuler"
+    }
+  },
+  "licenseTypes": {
+    "pageTitle": "Types de licence",
+    "createButton": "Créer un type de licence",
+    "searchPlaceholder": "Rechercher...",
+    "tableHeaders": {
+      "name": "Nom",
+      "paramCount": "Nombre de paramètres",
+      "creationDate": "Date de création",
+      "actions": "Actions"
+    },
+    "form": {
+      "createTitle": "Créer un type de licence",
+      "editTitle": "Modifier le type de licence",
+      "labels": {
+        "name": "Nom du type de licence",
+        "parameters": "Les paramètres",
+        "parameterName": "Nom du paramètre",
+        "parameterType": "Type de paramètre",
+        "description": "Description"
+      },
+      "placeholders": {
+        "name": "Nom",
+        "parameterName": "Nom",
+        "parameterType": "-",
+        "description": "Description"
+      },
+      "validation": {
+        "nameRequired": "Le nom du type de licence est requis.",
+        "nameTooLong": "Le nom du type de licence ne doit pas dépasser 100 caractères.",
+        "parameterTypeRequired": "Le type du paramètre est requis.",
+        "parameterNameRequired": "Le nom du paramètre est requis.",
+        "atLeastOneParameterRequired": "Au moins un paramètre doit être fourni."
+      },
+      "parameterTypes": {
+        "string": "Texte",
+        "number": "Nombre",
+        "boolean": "Booléen",
+        "date": "Date"
+      },
+      "addParameter": "Ajouter un paramètre",
+      "removeParameter": "Supprimer",
+      "createButton": "Créer",
+      "saveButton": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "notifications": {
+      "createSuccess": "Type de licence créé avec succès",
+      "updateSuccess": "Type de licence mis à jour avec succès",
+      "deleteSuccess": "Type de licence supprimé avec succès",
+      "error": "Une erreur est survenue"
+    },
+    "deleteDialog": {
+      "title": "Supprimer le type de licence",
+      "message": "Êtes-vous sûr de vouloir supprimer ce type de licence ? Cette action ne peut pas être annulée.",
+      "confirmButton": "Supprimer",
+      "cancelButton": "Annuler"
+    }
+  },
+  "UserProfile": {
+    "userInformation": "Informations Utilisateur",
+    "preferences": "Préférences",
+    "changePassword": "Changer le mot de passe",
+    "group": "Groupe",
+    "civility": "Civilité",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phoneNumber": "Numéro de téléphone",
+    "communicationsLanguage": "Langue de communication",
+    "timeZone": "Fuseau horaire",
+    "language": "Langue",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmNewPassword": "Confirmer le nouveau mot de passe",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "cancel": "Annuler",
+    "update": "Enregistrer",
+    "selectGroup": "Sélectionner un groupe",
+    "selectCivility": "Sélectionner une civilité",
+    "enterFirstName": "Saisir le prénom",
+    "enterLastName": "Saisir le nom",
+    "enterEmail": "Saisir l'email",
+    "enterPhoneNumber": "Saisir le numéro de téléphone",
+    "selectCommunicationLanguage": "Sélectionner la langue de communication",
+    "enterTimeZone": "Saisir le fuseau horaire",
+    "enterLanguage": "Saisir la langue",
+    "enterCurrentPassword": "Saisir le mot de passe actuel",
+    "enterNewPassword": "Saisir le nouveau mot de passe",
+    "confirmNewPasswordPlaceholder": "Confirmer le nouveau mot de passe"
+  }
+}

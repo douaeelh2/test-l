@@ -1,0 +1,274 @@
+{
+  "common": {
+    "login": {
+      "title": "Log In to Your Account",
+      "email_label": "Email",
+      "email": "Enter your email",
+      "password_label": "Password",
+      "password": "Enter your password",
+      "remember_me": "Remember me",
+      "forgot_password": "Forgot Password ?",
+      "login_button": "Log In",
+      "validation": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format",
+        "emailTooLong": "Email is too long",
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password is too short",
+        "passwordTooLong": "Password is too long",
+        "passwordUppercase": "Password must contain an uppercase letter",
+        "passwordLowercase": "Password must contain a lowercase letter",
+        "passwordNumber": "Password must contain a number",
+        "passwordSpecialChar": "Password must contain a special character"
+      }
+
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email to reset your password.",
+      "email_label": "Email Address",
+      "email_placeholder": "Enter your email",
+      "reset_button": "Reset Password",
+      "back_to_login": "Back to Login",
+      "validation": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "emailTooLong": "Email cannot be longer than 100 characters"
+      }
+    },
+    "changePassword": {
+      "title": "Change Your Password",
+      "old_password_label": "Old Password",
+      "old_password_placeholder": "Enter your current password",
+      "new_password_label": "New Password",
+      "new_password_placeholder": "Enter your new password",
+      "change_password_button": "Change Password",
+      "back_to_login": "Back to Login",
+      "validation": {
+        "oldPasswordRequired": "Current password is required",
+        "newPasswordRequired": "New password is required",
+        "passwordTooShort": "Password must be at least 8 characters long",
+        "passwordTooLong": "Password cannot be longer than 50 characters",
+        "newPasswordSameAsOld": "New password must be different from current password",
+        "passwordUppercase": "Password must contain an uppercase letter",
+        "passwordLowercase": "Password must contain a lowercase letter",
+        "passwordNumber": "Password must contain a number",
+        "passwordSpecialChar": "Password must contain a special character"
+      }
+    },
+    "edit": "Edit",
+    "delete": "Delete",
+    "history": "History",
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm",
+    "actions": {
+      "previousPage": "Previous",
+      "nextPage": "Next"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "of": "of"
+    }
+  },
+  "navbar": {
+    "title": "Administration",
+    "language": "Language",
+    "setting": "Settings",
+    "routes": {
+      "licenses": "Licenses Generation",
+      "licensetypes": "License Types Generation"
+    },
+    "languages": {
+      "fr": "French",
+      "en": "English"
+    },
+    "settings": {
+      "profile": "Profile",
+      "account": "Account",
+      "dashboard": "Dashboard",
+      "logout": "Logout"
+    }
+  },
+  "licenses": {
+    "pageTitle": "License Generation",
+    "createButton": "Create License",
+    "searchPlaceholder": "Search...",
+    "tableHeaders": {
+      "licenseName": "License Name",
+      "licenseType": "License Type",
+      "keyParams": "Key Parameters",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "history": {
+      "title": "History",
+      "action": {
+        "extension": "Extension",
+        "generation": "Generation"
+      },
+      "details": {
+        "licenseName": "License Name",
+        "licenseType": "License Type",
+        "keyParams": "Key Parameters",
+        "user": "User",
+        "duration": "Duration",
+        "creationDate": "Creation Date"
+      }
+    },
+    "params": {
+      "users": "Users",
+      "duration": "Duration",
+      "months": "months"
+    },
+    "form": {
+      "pageTitle": "Create a License",
+      "createButton": "Create",
+      "editTitle": "Edit License",
+      "saveButton": "Save",
+      "extendButton": "Extend",
+      "extendTitle": "Extend License",
+      "extendSaveButton": "Extend License",
+      "cancel": "Cancel",
+      "labels": {
+        "name": "License Name",
+        "type": "License Type",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "client": "Client",
+        "comment": "Comment",
+        "parameters": "Parameters",
+        "companyName": "Company Name",
+        "maxProcess": "Maximum Processes",
+        "maxResources": "Maximum Resources",
+        "maxConcurrentSessions": "Maximum Concurrent Sessions"
+      },
+      "placeholders": {
+        "name": "Name",
+        "type": "-",
+        "startDate": "-",
+        "endDate": "-",
+        "client": "-",
+        "comment": "Text",
+        "companyName": "Name",
+        "maxProcess": "Max number of processes",
+        "maxResources": "Max number of resources",
+        "maxConcurrentSessions": "Max number of concurrent sessions"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameTooLong": "Name must not exceed 100 characters",
+        "typeRequired": "Type is required",
+        "clientRequired": "Client is required",
+        "startDateRequired": "Start date is required",
+        "endDateRequired": "End date is required",
+        "startDateBeforeEndDate": "Start date must be before end date",
+        "endDateAfterStartDate": "End date must be after start date"
+      }
+    },
+    "notifications": {
+      "createSuccess": "License created successfully",
+      "updateSuccess": "License updated successfully",
+      "extendSuccess": "License extended successfully",
+      "deleteSuccess": "License deleted successfully",
+      "error": "An error occurred"
+    },
+    "deleteDialog": {
+      "title": "Delete license",
+      "message": "Are you sure you want to delete this license ? This action cannot be undone.",
+      "confirmButton": "Delete",
+      "cancelButton": "Cancel"
+    }
+  },
+  "licenseTypes": {
+    "pageTitle": "License Types",
+    "createButton": "Create License Type",
+    "searchPlaceholder": "Search...",
+    "tableHeaders": {
+      "name": "Name",
+      "paramCount": "Parameters Count",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "form": {
+      "createTitle": "Create a new license type",
+      "editTitle": "Edit license type",
+      "labels": {
+        "name": "License type name",
+        "parameters": "Parameters",
+        "parameterName": "Parameter name",
+        "parameterType": "Parameter type",
+        "description": "Description"
+      },
+      "placeholders": {
+        "name": "Name",
+        "parameterName": "Name",
+        "parameterType": "-",
+        "description": "Description"
+      },
+      "validation": {
+        "nameRequired": "License type name is required.",
+        "nameTooLong": "License type name must not exceed 100 characters.",
+        "parameterTypeRequired": "Parameter type is required.",
+        "parameterNameRequired": "Parameter name is required.",
+        "atLeastOneParameterRequired": "At least one parameter must be provided."
+      },
+      "parameterTypes": {
+        "string": "Text",
+        "number": "Number",
+        "boolean": "Boolean",
+        "date": "Date"
+      },
+      "addParameter": "Add a parameter",
+      "removeParameter": "Remove",
+      "createButton": "Create License Type",
+      "saveButton": "Save changes",
+      "cancel": "Cancel"
+    },
+    "notifications": {
+      "createSuccess": "License type created successfully",
+      "updateSuccess": "License type updated successfully",
+      "deleteSuccess": "License type deleted successfully",
+      "error": "An error occurred"
+    },
+    "deleteDialog": {
+      "title": "Delete license type",
+      "message": "Are you sure you want to delete this license type? This action cannot be undone.",
+      "confirmButton": "Delete",
+      "cancelButton": "Cancel"
+    }
+  },
+  "UserProfile": {
+    "userInformation": "User Information",
+    "preferences": "Preferences",
+    "changePassword": "Change Password",
+    "group": "Group",
+    "civility": "Civility",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "communicationsLanguage": "Communications Language",
+    "timeZone": "Time Zone",
+    "language": "Language",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "resetPassword": "Reset Password",
+    "cancel": "Cancel",
+    "update": "Update",
+    "selectGroup": "Select Group",
+    "selectCivility": "Select Civility",
+    "enterFirstName": "Enter first name",
+    "enterLastName": "Enter last name",
+    "enterEmail": "Enter email",
+    "enterPhoneNumber": "Enter phone number",
+    "selectCommunicationLanguage": "Select communication language",
+    "enterTimeZone": "Enter time zone",
+    "enterLanguage": "Enter language",
+    "enterCurrentPassword": "Enter current password",
+    "enterNewPassword": "Enter new password",
+    "confirmNewPasswordPlaceholder": "Confirm new password"
+  }
+
+}
